@@ -10,7 +10,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr, 2fr, 2fr;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
@@ -30,7 +30,7 @@ header {
 
 header h1 {
   font-weight: 700;
-  font-size: 76px;
+  font-size: 96px;
   margin: 30px 0;
   line-height: 1;
 }

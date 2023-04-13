@@ -1,10 +1,21 @@
-.container {
-  max-width: 1400px;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #1D0754;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 2fr;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
@@ -14,26 +25,29 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 150px;
-  margin: auto 0;
+  padding: 150px 0;
 }
 
 header h1 {
   font-weight: 700;
   font-size: 76px;
-  line-height: 1.5;
+  margin: 30px 0;
+  line-height: 1;
 }
 
 header h2 {
   font-weight: 400;
   font-size: 30px;
-  line-height: 1;
+  line-height: 1.5;
+  margin: 0;
 }
 
 header h3 {
+  font-size: 24px;
   font-weight: 900;
   letter-spacing: 5px;
   line-height: 1.5;
+  margin: 0;
 }
 
 header a {
@@ -41,19 +55,59 @@ header a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
+  color: #272044;
   text-align: center;
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
   background: white;
   padding: 7px 9px;
+  margin-top: 32px;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)), url('../src/SKFlag.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0 30px 20px;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.9;
+  line-height: 24px;
+  margin-right: 20px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
 }
 
 .purple-heart {
   text-decoration: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 60px;
   }

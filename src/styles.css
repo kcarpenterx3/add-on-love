@@ -22,7 +22,6 @@ body {
   margin-top: 10px;
   max-width: 100%;
   aspect-ratio: 1 / 1;
-
 }
 
 .grid-2-columns {
@@ -102,6 +101,10 @@ section {
 
 .card-footer {
   padding: 0 30px 30px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .btn {
@@ -204,6 +207,28 @@ main p {
   color: #272044;
   opacity: 0.7;
 }
+
+.teritary h2 {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.teritary h3 {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FB5C8D;
+}
+
 
 footer {
   color: white;

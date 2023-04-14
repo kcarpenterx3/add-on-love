@@ -187,7 +187,7 @@ main {
   background-color: #090C1D;
   color: white;
   margin: 20px;
-  padding: 50px;
+  display: block;
 }
 
 main h2 {
